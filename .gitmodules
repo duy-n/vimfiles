@@ -1,6 +1,6 @@
-[submodule "pack/my/start/vim-colors-solarized"]
-	path = pack/my/start/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized
 [submodule "pack/my/start/vim-papyrus"]
 	path = pack/my/start/vim-papyrus
 	url = https://github.com/sirtaj/vim-papyrus
+[submodule "pack/my/opt/vim-solarized8"]
+	path = pack/my/opt/vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8

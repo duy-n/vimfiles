@@ -4,18 +4,21 @@ source $VIMRUNTIME/mswin.vim
 " Color scheme
 syntax enable
 set background=light
-colorscheme solarized
+colorscheme solarized8
 
 " Don't pollute directories
-set backupdir=$TEMP//
-set directory=$TEMP//
-set undodir=$TEMP//
+set backupdir=$TEMP//,/tmp//
+set directory=$TEMP//,/tmp//
+set undodir=$TEMP//,/tmp//
 set nobackup
 set noundofile
 set noswapfile
 
-set guifont=Consolas:h11
 set smartcase
 set ignorecase
 set number
+
+if has("win32")
+	set guifont=Consolas:h11
+endif
 
