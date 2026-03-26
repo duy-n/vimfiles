@@ -1,7 +1,6 @@
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 
-" Color scheme
 syntax enable
 set background=light
 colorscheme solarized8
@@ -14,11 +13,11 @@ set nobackup
 set noundofile
 set noswapfile
 
+set guifont=Monaspace\ Argon\ NF:h12,Monaspace\ Argon:h12,Consolas:h11,Monaco:h12
 set smartcase
 set ignorecase
 set number
-
-if has("win32")
-	set guifont=Consolas:h11
-endif
-
+set shiftwidth=4
+set tabstop=4
+set wrap
+set smoothscroll
